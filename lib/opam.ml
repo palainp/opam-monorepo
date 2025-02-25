@@ -186,6 +186,7 @@ module Package_flag = struct
     | Pkgflag_Conf -> Fmt.pf pps "conf"
     | Pkgflag_AvoidVersion -> Fmt.pf pps "avoid-version"
     | Pkgflag_Unknown unknown -> Fmt.pf pps "unknown(%s)" unknown
+    | Pkgflag_Deprecated -> Fmt.pf pps "deperecated"
 end
 
 module Package_summary = struct
